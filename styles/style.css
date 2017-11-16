@@ -600,9 +600,6 @@ body {
 	content: none;
 }
 
-.footer-articles {
-}
-
 .footer-article {
 	margin-bottom: 11px;
 }
@@ -710,12 +707,6 @@ body {
 	display: none;
 }
 
-/*@media (max-width: 3200px) {
-	.main {
-		max-width: 1140px;
-	}
-}*/
-
 @media (max-width: 1366px) {
 	.categories {
 		flex-wrap: wrap;
@@ -764,9 +755,6 @@ body {
 		padding: 20px 40px 0 40px;
 
 	}
-	/*.footer-column {
-		width: 30%;
-	}*/
 	.footer-about {
 		width: 100%;
 	}
