@@ -302,7 +302,7 @@
 	background-position: center;
 }
 .about__picture {
-	width: 642px;
+	min-width: 642px;
 	height: 516px;
 	background: url('../images/london-bridge.png') no-repeat;
 }
@@ -374,7 +374,7 @@
 .slider__item {
 	display: flex;
 	position: relative;
-	width: 258px;
+	min-width: 258px;
 	height: 170px;
 	margin: 0 20px;
 	position: relative;
@@ -545,14 +545,15 @@
 	background-color: #979797;;
 }
 .footer-about {
-	width: 292px;
+	max-width: 292px;
+	min-width: 200px;
 	font-size: 12px;
 	line-height: 1.92;
 	letter-spacing: -0.3px;
 }
 
 .footer-recourse {
-	width: 312px;
+	max-width: 312px;
 	margin-bottom: 41px;
 	line-height: 1.43;
 	letter-spacing: -0.3px;
@@ -739,6 +740,9 @@
 		right: 0;
 		height: 2px;
 		background-color: #5a748f;
+	}
+	.footer-about {
+		max-width: 100%;
 	}
 }
 
