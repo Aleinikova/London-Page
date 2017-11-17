@@ -237,7 +237,20 @@
 	max-width: 263px;
 	min-width: 263px;
 }
-
+.news__picture-1 {
+	background: url('../images/news-post-1.png') no-repeat;
+}
+.news__picture-2 {
+	background: url('../images/news-post-2.png') no-repeat;
+}
+.news__picture-3 {
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa--kPgLvg6c-2K4ujLudM-Hn2jQ3l26JSohojVsQfBfKjfbCP') no-repeat;
+	background-size: cover;
+}
+.news__picture-4 {
+	background: url('http://my-perfect.ru/wp-content/uploads/2017/08/1417423438_76181-modnye-strizhki-dlya-kudryavyh-volos-434x600-260x400.jpg') no-repeat;
+	background-size: cover;
+}
 .news__post {
 	display: flex;
 	flex-direction: column;
@@ -288,7 +301,11 @@
 	background: url('../images/Rectangle.png') no-repeat;
 	background-position: center;
 }
-
+.about__picture {
+	width: 642px;
+	height: 516px;
+	background: url('../images/london-bridge.png') no-repeat;
+}
 .info {
 	display: flex;
 }
@@ -357,10 +374,28 @@
 .slider__item {
 	display: flex;
 	position: relative;
-	list-style: none;
+	width: 258px;
+	height: 170px;
 	margin: 0 20px;
 	position: relative;
 	transition: transform 0.5s ease-out;
+	list-style: none;
+}
+
+.slider__item-attractions {
+	background: url('../images/london-attractions-trip.png');
+}
+
+.slider__item-eye {
+	background: url('../images/london-eye-trip.png');
+}
+
+.slider__item-bridge {
+	background: url('../images/london-bridge-trip.png');
+}
+
+.slider__item-parliament {
+	background: url('../images/london-parliament-trip.png');
 }
 
 .slider__item:first-child {
