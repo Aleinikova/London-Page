@@ -1,3 +1,8 @@
+.welcome {
+	background: url('../images/london-night.png') no-repeat;
+	background-size: cover;
+}
+
 .content {
 	background-image: linear-gradient(to bottom, #ffffff, #c4e6f0);
 	color: #726c74;

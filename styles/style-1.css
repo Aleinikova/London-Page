@@ -16,8 +16,7 @@ body {
 .welcome {
 	height: 668px;
 	padding-top: 33px;
-	background: url('../images/london-night.png') no-repeat;
-	background-size: cover;
+	background-color: blue;
 	color: #ffffff;
 }
 
