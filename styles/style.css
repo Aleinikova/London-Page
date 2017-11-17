@@ -1,6 +1,6 @@
 .welcome {
-	background: url('../images/london-night.png') no-repeat;
-	background-size: cover;
+	/*background: url('../images/london-night.png') no-repeat;
+	background-size: cover;*/
 }
 
 .content {
@@ -31,7 +31,7 @@
 	background-size: cover;
 }
 .news__picture-4 {
-	background: url('http://my-perfect.ru/wp-content/uploads/2017/08/1417423438_76181-modnye-strizhki-dlya-kudryavyh-volos-434x600-260x400.jpg') no-repeat;
+	background: url('https://my-perfect.ru/wp-content/uploads/2017/08/1417423438_76181-modnye-strizhki-dlya-kudryavyh-volos-434x600-260x400.jpg') no-repeat;
 	background-size: cover;
 }
 .about {
