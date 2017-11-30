@@ -17,7 +17,6 @@ body {
 	height: 668px;
 	background: url('../images/london-night.png') no-repeat;
 	background-size: cover;
-	/*background: linear-gradient(45deg, rgba(133,5,245,1) 0%, rgba(54,43,255,1) 99%, rgba(54,43,255,1) 100%);*/
 	padding-top: 33px;
 	color: #ffffff;
 }
@@ -31,12 +30,20 @@ body {
 .menu-icon {
 	height: 23px;
 	width: 38px;
-	transition: transform 1s;
+	transition: transform 0.4s;
+	background: none;
+	border: none;
 }
 
 .menu-icon:hover {
-	transform: rotate(180deg);
-	transition: transform 1s;
+	transform: scale(1.2);
+	transition: transform .4s;
+}
+
+.menu-icon:focus {
+	-webkit-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	-moz-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
 }
 
 .menu-icon__line {
@@ -129,9 +136,9 @@ body {
 
 .landing-button:focus {
 	outline: none;
-	-webkit-box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
-	-moz-box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
-	box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
+	-webkit-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	-moz-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
 }
 
 .content {
@@ -171,9 +178,9 @@ body {
 
 .search-form__input:focus {
 	outline: none;
-	-webkit-box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
-	-moz-box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
-	box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
+	-webkit-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	-moz-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
 }
 
 .search-form__input::-webkit-input-placeholder {
@@ -320,10 +327,10 @@ body {
 
 .news-slider__arrow:focus {
 	outline: none;
-	background-color: #72B2F9;
-	-webkit-box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
-	-moz-box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
-	box-shadow: 0px 0px 13px 7px rgba(114,178,249,1);
+	/* background-color: #72B2F9; */
+	-webkit-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	-moz-box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
+	box-shadow: 0px 0px 0px 3px rgba(114,178,249,1);
 }
 
 .news-slider__arrow:hover {
@@ -701,6 +708,11 @@ body {
 
 .form__button:focus {
 	outline: none;
+	color: #72B2F9;
+	border: solid 2px #72B2F9;
+}
+
+.form__button:hover {
 	color: #72B2F9;
 	border: solid 2px #72B2F9;
 }
